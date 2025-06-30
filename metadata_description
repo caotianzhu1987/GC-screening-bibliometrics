@@ -1,0 +1,10 @@
+Data Source
+Data were collected from the Web of Science, PubMed, and Scopus databases. We screened publications related to the evolution of gastric cancer screening technologies from 2004 to 2024, resulting in a total of 1,365 articles.
+Field Descriptions
+CSV Format (raw_data.csv)
+title: Title of the publication
+authors: List of authors, separated by semicolons (;)
+publication_year: Year of publication
+journal: Name of the journal
+keywords: Keywords of the publication, separated by semicolons (;)
+citations: Number of citations
