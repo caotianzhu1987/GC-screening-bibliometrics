@@ -1,0 +1,56 @@
+Resource Citation Guidelines and Usage License (CC BY 4.0 Compliance)  
+I. Overview of Resources  
+This repository contains core data and outcomes from the study *"Technological Evolution and Knowledge Mapping in Gastric Cancer Screening: A 20-year Bibliometric Analysis with Lifecycle Prediction (2004–2024)"*, including:  
+1. **Datasets**:  
+   - Metadata of 1,365 literatures (2004–2024) from Web of Science, PubMed, and Scopus (title, abstract, keywords, authors, journals, etc.)  
+   - Technological classification dataset (9 categories: endoscopy, AI-endoscopy fusion, liquid biopsy, etc.)  
+   - Preprocessed data on journal distribution, author collaboration networks, keyword co-occurrence matrices, etc.  
+2. **Analysis Codes**:  
+   - Python scripts (Prophet lifecycle prediction, VOSviewer/CiteSpace network analysis)  
+   - Data cleaning, statistical analysis, and visualization codes (Jupyter Notebook format)  
+3. **Visualization Outcomes**:  
+   - Original charts including technological evolution phase diagrams, keyword co-occurrence networks, lifecycle prediction curves, etc.  
+4. **Research Documents**:  
+   - Full paper (PDF), data processing flow (PRISMA flowchart), technological classification standard documents  
+ II. Citation Guidelines  
+ 1. Academic Paper Citation  
+When using research outcomes or data from this repository, cite as follows:  
+@article{cao2024technological,
+  title={Technological Evolution and Knowledge Mapping in Gastric Cancer Screening: A 20-year Bibliometric Analysis with Lifecycle Prediction (2004--2024)},
+  author={Cao, Tianzhu and Wang, Xian and Deng, Ming and Zhou, Yong},
+  journal={[Journal Name to be Added]},
+  year={2024},
+  doi={[DOI to be Added]}
+}
+ 2. Dataset Citation  
+For using raw or preprocessed datasets, cite:  
+Cao T, Wang X, Deng M, et al. (2024). Gastric Cancer Screening Technology Bibliometric Dataset (2004-2024). [Repository Name].   
+3. Code Citation  
+When using or modifying codes from this repository, add a citation comment in the project:  
+# Developed based on "Gastric Cancer Screening Technology Lifecycle Prediction Model"  
+# Original code source: https://github.com/[Repository URL]/src/lifecycle_prediction.py  
+# Citation: Cao T, Deng M (2024). Gastric Cancer Screening Technology Analysis Codebase. MIT License.  
+ III. Usage License (CC BY 4.0)  
+ 1. License Terms Summary  
+This repository is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, allowing users to:  
+- ✅ Freely copy, distribute, and disseminate the resources  
+- ✅ Modify and create derivative works based on the resources  
+- ✅ Use for academic research, education, commercial or non-commercial purposes  
+Condition**: Proper attribution to the original authors and source must be provided, and new works must adopt the same license (CC BY 4.0).  
+
+ 2. Attribution Requirements  
+When using these resources, indicate the original source in the following locations:  
+- Academic papers: Cite in the main text and references as formatted above  
+- Data visualizations: Add "Data source: Cao et al., 2024" in the chart title or notes  
+- Derivative works: Include a license statement and original resource link in the README or copyright page  
+This work is based on the "Gastric Cancer Screening Technology Evolution and Knowledge Mapping Research" repository, licensed under CC BY 4.0.  
+ 3. Prohibited Actions  
+- ❌ Remove or modify copyright notices, license information, or citation marks in the resources  
+- ❌ Apply for new intellectual property rights (e.g., patents, database rights) for the resources as independent datasets  
+ IV. Contribution and Feedback  
+1. **Issue Reporting**: For data errors or optimization suggestions, submit issues to [GitHub Issues Page]  
+2. **Derivative Work Contribution**: Welcome to share improved codes or extended datasets via Pull Request  
+3. **Academic Collaboration**: Contact the corresponding author for collaborations: zhouyong@institute.edu  
+ V. License Links  
+- Full CC BY 4.0 license text: https://creativecommons.org/licenses/by/4.0/  
+  
